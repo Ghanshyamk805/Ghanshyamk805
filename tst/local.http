@@ -1,0 +1,10 @@
+GET http://localhost:7071/api/HelloWorldHttpTrigger?name="Azure function successfully"
+
+###
+
+POST http://localhost:7071/api/HelloWorldHttpTrigger
+Content-Type: application/json
+
+{
+    "name": "Hello Azure"
+}
